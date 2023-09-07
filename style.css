@@ -50,5 +50,12 @@ ul {
 li {
 	float: right;
 	padding-right: 10px;
+}
 
+.footer {
+	margin: auto;
+	width: 80%;
+	max-width: 900px;
+	text-align: left;
+	font-size: 12px;
 }
