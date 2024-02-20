@@ -1,53 +1,33 @@
-body {
-	background-image: linear-gradient(to bottom, #fad0c6, #ffd1fc);
-	margin: 0.2;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed
+#middle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.main {
-	background-color: white;
-	width: 80%;
-	max-width: 900px;
-	margin: auto;
-	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+#centered {
+    display: flex;
+    margin: auto;
+    width: 50%;
 }
 
-.to-center {
-	display: flex;
+#centered > a {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
-.left {
-	flex: 1;
-	padding: 20px;
-	padding-left: 50px;
-	text-align: left;
-}
-.right {
-	flex: 1;
-	padding: 20px;
-	padding-right: 50px;
-	text-align: right;
+#centered > a:link {
+    color: #949494;
+    text-decoration: none;
 }
 
-.header {
-	width: 80%;
-	color: rgba(0, 0, 0, 0.5);
-	margin: auto;
-	max-width: 900px;
+#centered > a:visited {
+    color: #000000;
+    text-decoration: none;
 }
 
-ul {
-	overflow: hidden;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	padding-bottom: 10px;
-	padding-top: 20px;
-}
-
-li {
-	float: right;
-	padding-right: 10px;
+#centered > a:hover {
+    color: #000000;
+    text-decoration: underline;
 }
