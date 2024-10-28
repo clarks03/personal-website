@@ -82,7 +82,23 @@ body {
     border-right: 1px solid black;
 }
 
+.mainContentMiddle img {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
 .mainContentMiddle h2 {
+    margin-left: 5px;
+}
+
+.mainContentMiddle h3 {
+    margin-left: 5px;
+}
+
+.mainContentMiddle h4 {
     margin-left: 5px;
 }
 
@@ -106,6 +122,17 @@ body {
 .mainContentMiddleCenter img {
     width: 200px;
     border: 1px solid black;
+}
+
+.mainContentMiddleImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContentMiddleImg a {
+    width: 90%;
 }
 
 .mainContentRight {
@@ -136,8 +163,6 @@ body {
     /* margin-left: 30px; */
     border: 1px solid black;
     margin-top: 10px;
-}
-
-.vinylEntryInfo h3,h4 {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
