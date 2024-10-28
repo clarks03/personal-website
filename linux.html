@@ -33,7 +33,7 @@
                         <h1>Linux</h1>
                         <img src="./images/tux.png" alt="me in front of the CN Tower">
                     </div>
-                    <p>Here I'm gonna document my two Linux-running machines, their specs, and current rices.</p>
+                    <p>Here I'm gonna document my two Linux-running machines, their specs, and current rices, as well as whatever other nonsense is on my mind.</p>
                     <h2>Desktop - Society (Custom)</h2>
                     <p>I've had this desktop since 2019 as a 16th birthday present (you can calculate how old I am from that), and it's still chugging along beautifully.</p>
                     <p>I'd only run Linux on it until ~October 2022, when I partitioned my boot drive and HDD for Pop! OS (yes, I watched a LTT video about Linux). Originally using it only for osu!, I distrohopped to EndeavourOS and then Ubuntu before eventually abandoning the partitions for Windows again.</p>
@@ -66,8 +66,52 @@
                         <li><b>Terminal:</b> kitty</li>
                         <li><b>Text Editor:</b> Neovim</li>
                         <li><b>Compositor:</b> picom</li>
+                        <li><b>Font:</b> JetBrainsMono Nerd Font</li>
                     </ul>
                     <p><b>Dotfiles: </b> TBD</p>
+                    <h2>Laptop - Thinkpad P14s Gen 2</h2>
+                    <p>Around the same time that I got my dedicated Linux SSD on my Desktop, I started researching a laptop to put Linux on. Ideally, this laptop would replace my then-current laptop (a 2019 Intel MBP 16", fully specced). I'd heard good things about Thinkpads--both the T480 and X1 Carbon Gen 6. Eventually I discovered that the newer "T14" line was more powerful, and the AMD chips had better Linux compatibility.</p>
+                    <p>For my birthday I bought myself a P14s Gen 2 (the exact same hardware as a T14 but with additional "hardware certifications"? And a smaller battery?) You might find it hard to believe that a laptop I picked up for $600 CAD replace my $3500 fully-specced Macbook Pro, but it truly does.</p>
+                    <p>I used this laptop for my cybersecurity class, meaning that it needed to run 2 virtual machines, multiple terminal instances, Firefox, Spotify, and Discord, without breaking a sweat. It could even run a smaller workload (only 1 vm, firefox, discord, and terminals) running at max 8W, meaning it could last 6 hours under that load.</p>
+                    <p>In terms of Linux distro usage, it was Fedora -> OpenSUSE -> Fedora (current). I liked Fedora's up-to-date packages and stability with minimal configuration, but OpenSUSE was 1) too slow, and 2) too cumbersome to use. I didn't really like YaST, and I found the battery life to be worse than on Fedora with the same amount of configuration (none).</p>
+                    <h3>Specs</h3>
+                    <ul>
+                        <li><b>Model:</b> Thinkpad P14s Gen 2</li>
+                        <li><b>CPU: </b>AMD Ryzen 7 5850U</li>
+                        <li><b>Memory: </b>32GB</li>
+                        <li><b>Storage: </b>512GB SSD</li>
+                        <li><b>Display: </b>14" 1920x1080 Touchscreen</li>
+                        <li><b>Fingerprint reader? </b>Yes</li>
+                    </ul>
+                    <h3>Current Rice</h3>
+                    <div class="mainContentMiddleImg">
+                        <a href="./images/thinkpad1.png">
+                            <img src="./images/thinkpad1.png">
+                        </a>
+                    </div>
+                    <p>(Don't mind the low battery)</p>
+                    <p>I ended up settling on a Nord theme with this rice. I tried using Gruvbox before, and while it was nice on my eyes, I got sick of it very quickly. The Nord, however, has lated the test of time. I think out of all of my systems, this rice has lasted the longest.</p>
+                    <p>Here I'm showing off a very typical workflow for me, which is writing LaTeX in neovim. God I love LaTeX. If I'm not using LaTeX in a .tex file, I'm writing it in markdown.</p>
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li><b>OS:</b> Fedora</li>
+                        <li><b>WM:</b> dwm</li>
+                        <li><b>Bar:</b> dwmblocks</li>
+                        <li><b>App Launcher:</b> Rofi</li>
+                        <li><b>PDF Viewer:</b> Zathura</li>
+                        <li><b>Terminal:</b> st</li>
+                        <li><b>Text Editor:</b> Neovim</li>
+                        <li><b>Compositor:</b> picom</li>
+                        <li><b>Notifications:</b> dunst</li>
+                        <li><b>Fonts:</b> JetBrainsMono Nerd Font, Hurmit Nerd Font</li>
+                    </ul>
+                    <h2>Miscellaneous Ramblings</h2>
+                    <p>I'm currently (as of October 27 2024) running a Minecraft server on an old Dell Inspiron 7373 with Debian 12. It's been running amazingly and neither my friends nor I have experienced any lag yet, which is surprising because the last server I ran on that laptop (using Arch and the minecraftd script) stopped every ~2h.</p>
+                    <p>The server is running via. <a href="https://hub.docker.com/r/itzg/minecraft-server">a Docker minecraft container.</a> It's extremely easy to use and has an immutable configuration file (the docker compose .yml file) which means that whenever the next 2-week phase starts, I'll be prepared.</p>
+                    <p>I think I'll use that laptop for other things, too. Other server-related things. The only problem is that it only has 256G of storage so I can't use it for storage.</p>
+                    <br>
+                    <p>Linux is surprisingly amazing for gaming!! The only game that it can't run (that my friends play) is Fortnite, but everything else (Overwatch 2, Rocket League, Minecraft, osu!, Apex Legends, etc.) run perfectly on Linux, either natively or with Proton.</p>
+                    <p>They even run well on Wayland! I was surprised how the new 560 NVIDIA drivers fixed Wayland, and the gaming performance was pretty good too! But once I switched back to my love DWM on Xorg, the performance increase was noticeable. I'm getting like 700 frames per second on Minecraft where I would be getting like 240fps on Wayland (which is not noticeable since I have a 240hz monitor, but it's very nice).</p>
                 </div>
                 <div class="mainContentRight">
                     <div class="mainContentRightPadded">
