@@ -1,168 +1,36 @@
-@font-face {
-    font-family: "Silkscreen";
-    src: url("./fonts/w95fa/W95FA.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
 body {
-    font-family: "Silkscreen";
-    padding: 0;
-    margin: 0;
-    background-image: url("./images/polkadot.jpg");
-    background-size: 250px;
+    background-color: #a1d5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.main {
-    width: 80%;
-    max-width: 800px;
-    height: 80%;
-    background-color: #fcbdb8;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border: 1px solid black;
-    box-shadow: 10px 10px black;
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.mainHeader {
-    background-color: #000340;
+.awesome {
     color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 30px;
 }
 
-.mainHeader p {
-    margin-left: 5px;
-    font-weight: bold;
-}
-
-.mainHeaderButtons {
-    display: flex;
-}
-
-.mainHeaderButtons button {
-    height: 25px;
-    width: 25px;
-    margin-right: 2px;
-    font-weight: bold;
-    border-radius: 0;
-}
-
-.mainContent {
-    display: grid;
-    grid-template-columns: 100px auto 100px;
-}
-
-.mainContentLeft {
-    margin: 5px;
-    margin-top: 20px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-}
-
-.mainContentLeft a {
-    margin-bottom: 10px;
-    color: black;
+.awesome a {
+    font-size: 30px;
+    color: white;
     text-decoration: none;
+    margin: 10px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    transition: color 0.3s;
 }
 
-.mainContentLeft #active {
-    text-decoration: underline;
-}
-
-.mainContentLeft a:hover {
-    text-decoration: underline;
-    color: #333;
-}
-
-.mainContentMiddle {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.mainContentMiddle img {
-    width: 100%;
-    border: 1px solid black;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-
-.mainContentMiddle h2 {
-    margin-left: 5px;
-}
-
-.mainContentMiddle h3 {
-    margin-left: 5px;
-}
-
-.mainContentMiddle h4 {
-    margin-left: 5px;
-}
-
-.mainContentMiddle p {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.mainContentMiddle hr {
-    border: none;
-    border-bottom: 1px solid black;
-}
-
-.mainContentMiddleCenter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.mainContentMiddleCenter img {
-    width: 200px;
-    border: 1px solid black;
-}
-
-.mainContentMiddleImg {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.mainContentMiddleImg a {
-    width: 90%;
-}
-
-.mainContentRight {
-    margin-left: 5px;
-    margin-top: 20px;
-}
-
-.mainContentRight a {
-    margin: 0;
-}
-
-.mainContentRightPadded {
-    margin-bottom: 10px;
-}
-
-.vinylEntry {
-    margin-left: 30px;
-}
-
-.vinylEntryInfo {
-    display: flex;
-    align-items: center;
-}
-
-.vinylEntryInfo img {
-    width: 100px;
-    height: 100px;
-    /* margin-left: 30px; */
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+.awesome a:hover {
+    color: lightgrey;
 }
